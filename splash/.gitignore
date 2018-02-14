@@ -1,0 +1,18 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings.php
+
+# Ignore paths that contain generated content.
+#files/
+#sites/*/files
+sites/*/private
+
+
+modules/contrib
+
+sites/default/files/bootstrap
+sites/default/files/css
+sites/default/files/js
+sites/default/files/languages
+sites/default/files/php
+sites/default/files/styles
+sites/default/files/translations
